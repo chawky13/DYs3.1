@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Police OpenDyslexic */
+  @font-face {
+    font-family: 'OpenDyslexic';
+    src: url('https://cdn.jsdelivr.net/npm/opendyslexic@1.0.3/dist/regular/OpenDyslexic-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'OpenDyslexic';
+    src: url('https://cdn.jsdelivr.net/npm/opendyslexic@1.0.3/dist/bold/OpenDyslexic-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+}
+
+/* Classes de police */
+.font-opendyslexic {
+  font-family: 'OpenDyslexic', sans-serif !important;
+}
+
+.font-arial {
+  font-family: Arial, sans-serif !important;
+}
+
+.font-comic {
+  font-family: 'Comic Sans MS', cursive !important;
+}
+
+/* Animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-2px); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.8; transform: scale(1.1); }
+}
+
+.animate-float {
+  animation: float 2s ease-in-out infinite;
+}
+
+/* Styles d'adaptation */
+.adapted-text {
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+.adapted-text .first-letter\:font-bold::first-letter {
+  font-weight: 700;
+}

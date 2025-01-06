@@ -1,0 +1,27 @@
+/* Custom styles for text adaptation */
+.adapted-text {
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+.adapted-text .first-letter\:font-bold::first-letter {
+  font-weight: 700;
+}
+
+/* Font families */
+.font-opendyslexic {
+  font-family: 'OpenDyslexic', sans-serif;
+}
+
+.font-comic {
+  font-family: 'Comic Sans MS', cursive;
+}
+
+/* Spacing utilities */
+.leading-loose {
+  line-height: 2;
+}
+
+.tracking-wide {
+  letter-spacing: 0.1em;
+}

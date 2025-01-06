@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="100" viewBox="0 0 400 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g fill="#2D1B69">
+    <path d="M0 0 L50 0 L80 50 L50 100 L0 100 L30 50 Z"/>
+    <path d="M90 0 L140 0 L110 50 L140 100 L90 100 L60 50 Z"/>
+    <path d="M150 0 L200 0 L230 50 L200 100 L150 100 L180 50 Z"/>
+    <path d="M240 0 L290 0 L320 50 L290 100 L240 100 L270 50 Z"/>
+    <path d="M330 0 L380 0 L350 50 L380 100 L330 100 L300 50 Z"/>
+    <path d="M390 0 L400 0 L400 100 L390 100 Z"/>
+  </g>
+</svg>
