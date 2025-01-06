@@ -26,7 +26,7 @@ export function Header() {
               <Logo />
             </a>
             <p className="text-xs text-gray-500 mt-1 font-medium">
-              par C.KAZI-AOUAL
+              C.KAZI-AOUAL
             </p>
           </div>
           <div className="w-10" aria-hidden="true" />
